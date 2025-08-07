@@ -17,7 +17,7 @@ export default function LoginForm() {
   useEffect(() => {
     if (state?.success) {
       setUser(state.user); // Update Zustand store with user data
-      router.replace("/"); // Redirect to home page
+      router.replace("/home"); // Redirect to home page
     }
   }, [state, setUser, router]);
 

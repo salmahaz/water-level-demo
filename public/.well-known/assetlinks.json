@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.watermonster.app.twa",
+    "sha256_cert_fingerprints": ["F7:A8:B0:D3:51:49:3A:6C:44:16:57:8D:6E:42:04:DE:91:E6:35:5B:0D:7B:65:BD:CC:CA:58:C8:67:FB:E4:78",
+      "3A:4A:AA:3A:AB:FF:45:D8:1B:66:93:D4:8B:AD:24:2F:30:73:F8:45:28:53:69:13:05:22:AF:95:98:EA:A0:3B"]
+  }
+}]

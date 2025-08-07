@@ -1,0 +1,104 @@
+{
+  "name": "Water Monster App",
+  "short_name": "Water Monster",
+  "display": "standalone",
+  "theme_color": "#40A3C0",
+  "background_color": "#FFFFFF",
+  "description": "Control your water flow",
+  "start_url": "/",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": [
+    "business",
+    "lifestyle",
+    "social",
+    "utilities",
+    "productivity"
+  ],
+  "permissions": ["notifications"],
+  "icons": [
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Settings page",
+      "short_name": "Settings",
+      "description": "open settings page",
+      "url": "/settings",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "id": "WaterMonster2025_1",
+  "lang": "en",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "iarc_rating_id": "3+",
+  "prefer_related_applications": true,
+  "edge_side_panel": {
+    "preferred_width": 3
+  },
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/water-tank.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/diesel-tank.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/fuel-tank.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/tank-settings.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/store.png",
+      "size": "750x1667",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/coming-soon.png",
+      "size": "750x1667",
+      "type": "image/png"
+    }
+  ]
+}

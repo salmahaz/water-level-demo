@@ -1,0 +1,1 @@
+export const tankOptions = ["Water", "Diesel", "Fuel"];

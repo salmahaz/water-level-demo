@@ -44,6 +44,7 @@ export function useFCMToken() {
 
       // console.log("[FCM] Permission granted. Generating token...");
       const token = await generateFCMToken();
+      console.log("TOKEN:" , token);
 
       if (!token) {
         console.warn("[FCM] No token generated.");

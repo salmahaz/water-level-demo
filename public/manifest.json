@@ -2,6 +2,7 @@
   "name": "Water Monster App",
   "short_name": "Water Monster",
   "display": "standalone",
+  "gcm_sender_id": "103953800507",
   "theme_color": "#40A3C0",
   "background_color": "#FFFFFF",
   "description": "Control your water flow",

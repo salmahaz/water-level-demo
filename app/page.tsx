@@ -28,6 +28,12 @@ export default function Page() {
         >
           Go to Login
         </button>
+        <button
+          onClick={() => router.push("/signup")}
+          className="px-4 py-2 bg-green-600 text-white rounded"
+        >
+          Go to sign up
+        </button>
       </div>
     </div>
   );
